@@ -21,10 +21,6 @@ namespace Filmography.Models
             return string.Join(",", _values.ToArray());
         }
 
-        public List<string> Items 
-        {
-            get { return _values; }
-            set { _values = value; }
-        }
+        public List<string> Items { get;set; }
     }
 }

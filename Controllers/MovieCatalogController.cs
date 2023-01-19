@@ -7,13 +7,13 @@ namespace Filmography.Controllers
 {
     [Route("api/crud")] //clear read update delete
     [ApiController]
-    public class CrudController : ControllerBase
+    public class MovieCatalogController : ControllerBase
     {
         //private readonly MovieCatalog _items = new MovieCatalog();
 
         private MovieCatalog _item;
 
-        public CrudController(MovieCatalog item)
+        public MovieCatalogController(MovieCatalog item)
         {
             _item = item;
         }
